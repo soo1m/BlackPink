@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (BlackPink) @PPPPPE.--
---   This Is The Source Channel @PPPPPE .   --
---                - B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸-                 --
---        -- https://t.me/PPPPPE --         --
+-- This Source Was Developed By (SOOM) @NNN8X.--
+--   This Is The Source Channel @NNN8X .   --
+--                - 𝙎𝙊𝙊𝙈-                 --
+--        -- https://t.me/R_434 --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -154,9 +154,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = 'مبرمج السورس'
-elseif UserId == 1373615087 then
+elseif UserId == 1699804972 then
 Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
@@ -716,12 +716,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
-unLock   = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
-lockKid  = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
-lockKick = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
-Reply    = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[𝙎𝙊𝙊𝙈](https://t.me/R_434)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
+unLock   = '[𝙎𝙊𝙊𝙈](https://t.me/R_434)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[𝙎𝙊𝙊𝙈](https://t.me/R_434)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
+lockKid  = '[𝙎𝙊𝙊𝙈](https://t.me/R_434)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
+lockKick = '[𝙎𝙊𝙊𝙈](https://t.me/R_434)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
+Reply    = '[𝙎𝙊𝙊𝙈](https://t.me/R_434)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -734,9 +734,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -773,9 +773,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 1373615087 then
+if tonumber(msg.sender.user_id) == 258295856 then
 msg.Name_Controller = 'مبرمج السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 1373615087 then
+elseif tonumber(msg.sender.user_id) == 1699804972 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
@@ -1575,7 +1575,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/ieeo3s'},
+{text = '𝙎𝙊𝙊𝙈 ⁦', url='https://t.me/R_434'},
 },
 }
 }
@@ -1772,7 +1772,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/ieeo3s'},
+{text = '𝙎𝙊𝙊𝙈 ⁦', url='https://t.me/R_434'},
 },
 }
 }
@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/ieeo3s'},
+{text = '𝙎𝙊𝙊𝙈 ⁦', url='https://t.me/R_434'},
 },
 }
 }
@@ -2323,7 +2323,7 @@ if not msg.ControllerBot then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true)  
 end
 os.execute('rm -rf BlackPink.lua')
-download('https://raw.githubusercontent.com/MaLaTH-M/BlackPink/main/BlackPink.lua','BlackPink.lua')
+download('https://raw.githubusercontent.com/soo1m/BlackPink/main/BlackPink.lua','BlackPink.lua')
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙تم تحديث السورس * ',"md",true)  
 end
 if text == '『 تعطيل الاذاعه 』' or text == 'تعطيل الاذاعه' then
@@ -2643,7 +2643,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'},
+{text = '𝙎𝙊𝙊𝙈', url = 'https://t.me/R_434'},
 },
 }
 }
@@ -2726,7 +2726,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'},
+{text = '𝙎𝙊𝙊𝙈', url = 'https://t.me/R_434'},
 },
 }
 }
