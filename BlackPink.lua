@@ -117,7 +117,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos ={Sudo_Id,1373615087}  
+local ListSudos ={Sudo_Id,258295856}  
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -128,9 +128,9 @@ end
 function Controllerbanall(ChatId,UserId)
 Status = 0
 DevelopersQ = Redis:sismember(TheBlackPink.."BlackPink:DevelopersQ:Groups",UserId) 
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -156,7 +156,7 @@ Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..C
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
 if UserId == 258295856 then
 Status = 'مبرمج السورس'
-elseif UserId == 1699804972 then
+elseif UserId == 258295856 then
 Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
