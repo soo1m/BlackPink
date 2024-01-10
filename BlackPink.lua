@@ -11322,7 +11322,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/R_434'},{text = '᥀ لتنصيب بوت .', url = 't.me/w1e11'}, 
+{text = '᥀ السورس .', url = 't.me/R_434'},{text = '᥀ لتنصيب بوت .', url = 't.me/HHCC6'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
