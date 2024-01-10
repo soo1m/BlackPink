@@ -117,7 +117,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos ={Sudo_Id,258295856}  
+local ListSudos ={Sudo_Id,6705059542}  
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -128,9 +128,9 @@ end
 function Controllerbanall(ChatId,UserId)
 Status = 0
 DevelopersQ = Redis:sismember(TheBlackPink.."BlackPink:DevelopersQ:Groups",UserId) 
-if UserId == 258295856 then
+if UserId == 6705059542 then
 Status = true
-elseif UserId == 258295856 then
+elseif UserId == 6705059542 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -154,9 +154,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 258295856 then
+if UserId == 6705059542 then
 Status = 'مبرمج السورس'
-elseif UserId == 258295856 then
+elseif UserId == 6705059542 then
 Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
@@ -734,9 +734,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 258295856 then
+if UserId == 6705059542 then
 Status = true
-elseif UserId == 258295856 then
+elseif UserId == 6705059542 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -773,9 +773,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 258295856 then
+if UserId == 6705059542 then
 Status = true
-elseif UserId == 258295856 then
+elseif UserId == 6705059542 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 258295856 then
+if tonumber(msg.sender.user_id) == 6705059542 then
 msg.Name_Controller = 'مبرمج السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 258295856 then
+elseif tonumber(msg.sender.user_id) == 6705059542 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝙎𝙊𝙊𝙈 ⁦', url='https://t.me/R_434'},
+{text = '𝗦𝗢𝗢𝗠 ⁦', url='https://t.me/R_434'},
 },
 }
 }
@@ -9775,7 +9775,7 @@ Redis:del(TheBlackPink..'BlackPink:Texting:DevTheBlackPink')
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ تم حذف كليشه المطور')
 end
 if text == 'مبرمج سورس' or text == 'مبرمج السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("FFIIX")
+local UserId_Info = LuaTele.searchPublicChat("HHCC6")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9800,7 +9800,7 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/FFIIX"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/HHCC6"}
 },
 {
 {text = '❲ 𝗦𝗢𝗢𝗠 ❳', url = "https://t.me/R_434"},
@@ -9923,7 +9923,7 @@ data = {
 {text = 'Developer Source', url = 't.me/W1E11'}, 
 },
 {
-{text = 'Developer Source !', url = 't.me/FFIIX'}, 
+{text = 'Developer Source !', url = 't.me/HHCC6'}, 
 },
 }
 }
